@@ -1,3 +1,38 @@
-#doge_btn {
-    border: none;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face{
+    font-family: Raleway;
+}
+
+#score_view_container{
+    text-align: center;
+}
+
+#score{
+    display: inline-block;
+    font-family: Raleway;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+img{
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+#coin_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coin_img{
+    display: flex;
+    justify-content: center;
 }
