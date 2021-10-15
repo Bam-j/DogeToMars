@@ -8,3 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(score);
     };
 });
+
+//우클릭 방지 이벤트
+document.addEventListener('contextmenu', function (event) {
+    return event.preventDefault();
+});
