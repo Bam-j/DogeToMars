@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     //터치 이벤트
-    document.body.addEventListener('touchstart', function (event) {
+    /*document.body.addEventListener('touchstart', function (event) {
         scoreViewText.textContent = Number(scoreViewText.textContent) + 1;
 
         score += 1;
