@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return event.preventDefault();
     });
 
-    //로컬스토리지에 정보가 있다면 이어하기
+    //로컬스토리지에 정보가 있다면, 저장된 클릭 횟수 부터 표시하고 카운트
     if(JSON.parse(localStorage.getItem('score')) !== 0) {
         score = Number(JSON.parse(localStorage.getItem('score')));
         scoreViewText.textContent = JSON.parse(localStorage.getItem('score'));
@@ -19,11 +19,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     //클릭 했을 경우, 클릭수 + 1 이벤트
-    document.body.onclick = function (event) {
+    document.body.addEventListener('click', function () {
         scoreViewText.textContent = Number(scoreViewText.textContent) + 1;
 
         score += 1;
 
         localStorage.setItem('score', JSON.stringify(score));
-    };
+    });
+
+
+    document.body.addEventListener('touchend', function () {
+        scoreViewText.textContent = Number(scoreViewText.textContent) + 1;
+
+        score += 1;
+
+        localStorage.setItem('score', JSON.stringify(score));
+    })
 });
