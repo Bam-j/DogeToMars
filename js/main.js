@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('score', JSON.stringify(score));
     }, false);
 
+    //더블탭 확대(3초 이내 터치) 방지 이벤트
     document.addEventListener('touchend', function (event) {
         let currentTouchEndTime = (newDate()).getTime();
 
@@ -35,5 +36,12 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
         }
         lastTouchEndTime = currentTouchEndTime;
+    }, false);
+
+    //줌 확대 기능 방지: touch 갯수가 2개 이상이면 터치 이벤트 무효화
+    document.body.addEventListener('touchstart', function (event) {
+        if(event.touches.length > 1) {
+            event.preventDefault();
+        }
     }, false);
 }, false);
