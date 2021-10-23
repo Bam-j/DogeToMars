@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, false);
 
     //줌 확대 기능 방지: touch 갯수가 2개 이상이면 터치 이벤트 무효화
-    document.body.addEventListener('touchstart', function (event) {
+    document.documentElement.addEventListener('touchstart', function (event) {
         if(event.touches.length > 1) {
             event.preventDefault();
         }
