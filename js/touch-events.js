@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
         score += 1;
 
         localStorage.setItem('score', JSON.stringify(score));
+
+        changeBackground(score);
     }, false);
 
     //더블탭 확대(3초 이내 터치) 방지 이벤트
