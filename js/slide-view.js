@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeMenuBtn = document.getElementById('close_btn');
 
     slideBtn.addEventListener('click', function() {
-        slideBtn.style['dispay'] = 'none';
+        slideBtn.style['display'] = 'none';
         slideMenu.style['transform'] = 'translate(0px, 0px)';
         slideMenu.style['msTransform'] = "translate(0px, 0px)";
         slideMenu.style['mozTransform'] = "translate(0px, 0px)";
