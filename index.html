@@ -2,26 +2,24 @@
 <html lang='en'>
 <head>
     <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no'>
     <title>Doge To Mars</title>
     <link href='css/mainStyle.css' rel='stylesheet' type='text/css'>
-    <link href='https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css'>
 </head>
 <body onselectstart='return false'>
 <div id='score_view_container'>
-    <h1 id='score'></h1>
+    <div id='slide_view'>
+        <div id='slide_ranking_view'>
+            <div>테스트1</div>
+            <div id='close_btn'>close</div>
+        </div>
+        <div id='slide_view_btn'>1등 점수 보기</div>
+    </div>
+    <div id='score'></div>
 </div>
 
 <div id='coin_img_container'>
     <img id='coin_img' src='img/testImg.png' alt='Coin Image'>
-</div>
-
-<div id='slide_view'>
-    <div id='slide_ranking_view'>
-        <div>테스트1</div>
-        <div id='close_btn'>close</div>
-    </div>
-    <div id='slide_view_btn'></div>
 </div>
 <script src='js/touch-events.js'></script>
 <script src='js/slide-view.js'></script>

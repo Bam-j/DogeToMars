@@ -20,48 +20,29 @@ img{
 }
 
 #score_view_container{
+    border-color: black;
+    border-style: solid;
+
+    width: 100%;
+    height: auto;
     text-align: center;
 }
 
-#score{
-    display: inline-block;
-    font-family: Raleway;
-    font-size: xx-large;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-#coin_img_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#coin_img{
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    justify-content: center;
-}
-
 #slide_view{
-    width: 400px;
-    height: 1530.35px;
+    border-color: beige;
+    border-style: solid;
+
+    width: 35%;
     overflow: hidden;
     position: relative;
+    color: #fff00f;
 }
 
 #slide_ranking_view{
-    margin-right: 10px;
-    width: 250px;
-    height: 100%;
-    background-color: #fff00f;
-    padding-top: 100px;
+    border-color: red;
+    border-style: solid;
+
+    background-color: yellowgreen;
     transition: transform 600ms;
     transform: translate(-250px, 0px);
 
@@ -77,17 +58,13 @@ img{
 }
 
 #slide_ranking_view > div{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 12px;
-    width: 250px;
-    height: 30px;
+    font-family: Raleway;
+    width: 100px;
     line-height: 30px;
     vertical-align: middle;
     text-align: center;
     color: #716f6f;
     cursor: pointer;
-    margin-bottom: 1px;
 }
 
 #slide_ranking_view > div:hover{
@@ -95,9 +72,10 @@ img{
 }
 
 #slide_view_btn{
-    font-size: 30px;
-    width: 100px;
-    height: 1500px;
+    border-color: blue;
+    border-style: solid;
+
+    font-family: Raleway;
     position: absolute;
     bottom: 10px;
     left: 23px;
@@ -107,4 +85,40 @@ img{
 
 #slide_view_btn:hover{
 
+}
+
+#score{
+    border-color: red;
+    border-style: solid;
+
+    display: inline-block;
+    width: 65%;
+    font-family: Raleway;
+    font-size: xx-large;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#coin_img_container{
+    border-color: black;
+    border-style: solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coin_img{
+    border-color: red;
+    border-style: solid;
+
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    justify-content: center;
 }
