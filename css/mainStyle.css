@@ -4,18 +4,10 @@
     font-family: Raleway;
 }
 
-#score_view_container{
-    text-align: center;
-}
-
-#score{
-    display: inline-block;
-    font-family: Raleway;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 img{
@@ -23,6 +15,22 @@ img{
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-drag: none;
+    user-select: none;
+    object-fit: cover;
+}
+
+#score_view_container{
+    text-align: center;
+}
+
+#score{
+    display: inline-block;
+    font-family: Raleway;
+    font-size: xx-large;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     user-select: none;
 }
 
@@ -35,6 +43,8 @@ img{
 #coin_img{
     display: flex;
     max-width: 100%;
+    max-height: 100%;
+    width: auto;
     height: auto;
     justify-content: center;
 }
