@@ -6,21 +6,37 @@
     <title>Doge To Mars</title>
     <link href='css/mainStyle.css' rel='stylesheet' type='text/css'>
 </head>
+
 <body onselectstart='return false'>
+<header id='score_view_container'>
+    <div id='slide_view'>
+        <div id='slide_ranking_view'>
+            <div id='high_score'>최고 점수</div>
+            <div id='close_btn'>close</div>
+        </div>
+    </div>
+    <span id='score'></span>KM
+    <div id='slide_view_btn'>슬라이드 서랍 메뉴</div>
+</header>
+<section id='coin_img_container'>
+    <img id='coin_img' src='img/testImg.png' alt='Coin Image'>
+</section>
+<!--
 <div id='score_view_container'>
     <div id='slide_view'>
         <div id='slide_ranking_view'>
-            <div>테스트1</div>
+            <div id='high_score'>최고 점수</div>
             <div id='close_btn'>close</div>
         </div>
         <div id='slide_view_btn'>1등 점수 보기</div>
+        <div id='score'></div>
     </div>
-    <div id='score'></div>
 </div>
 
 <div id='coin_img_container'>
     <img id='coin_img' src='img/testImg.png' alt='Coin Image'>
 </div>
+-->
 <script src='js/touch-events.js'></script>
 <script src='js/slide-view.js'></script>
 </body>

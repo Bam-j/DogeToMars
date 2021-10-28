@@ -23,16 +23,14 @@ img{
     border-color: black;
     border-style: solid;
 
-    width: 100%;
     height: auto;
     text-align: center;
 }
 
 #slide_view{
-    border-color: beige;
+    border-color: violet;
     border-style: solid;
 
-    width: 35%;
     overflow: hidden;
     position: relative;
     color: #fff00f;
@@ -67,7 +65,7 @@ img{
     cursor: pointer;
 }
 
-#slide_ranking_view > div:hover{
+#slide_ranking_view > #close_btn:hover{
     background-color: #efa0a0;
 }
 
@@ -92,7 +90,6 @@ img{
     border-style: solid;
 
     display: inline-block;
-    width: 65%;
     font-family: Raleway;
     font-size: xx-large;
     -ms-user-select: none;
