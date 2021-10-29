@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('touchend', function (event) {
         let currentTouchEndTime = (newDate()).getTime();
 
-        if (currentTouchEndTime - lastTouchEndTime <= 300) {
+        if (currentTouchEndTime - lastTouchEndTime <= 100) {
             event.preventDefault();
         }
         lastTouchEndTime = currentTouchEndTime;
