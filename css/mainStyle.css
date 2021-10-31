@@ -7,7 +7,9 @@
 body {
     width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    background-image: url('../img/ground.png');
+    background-size: cover;
 }
 
 img{
@@ -24,10 +26,14 @@ img{
     border-color: black;
     border-style: solid;
 
-    height: auto;
+    background-image: url('../img/scoreBoard.png');
+    background-size: cover;
+    background-position: center;
+    height: 5em;
     text-align: center;
 }
 
+/*
 #slide_view{
     border-color: violet;
     border-style: solid;
@@ -85,12 +91,12 @@ img{
 #slide_view_btn:hover{
 
 }
+*/
 
 #score{
     border-color: red;
     border-style: solid;
 
-    display: inline-block;
     font-family: Raleway;
     font-size: 2em;
     -ms-user-select: none;
@@ -116,7 +122,7 @@ img{
     display: flex;
     max-width: 100%;
     max-height: 100%;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
     justify-content: center;
 }
