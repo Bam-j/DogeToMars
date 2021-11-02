@@ -6,10 +6,12 @@
 
 body {
     width: 100%;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     background-image: url('../img/ground.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 img{
@@ -26,9 +28,10 @@ img{
     border-color: black;
     border-style: solid;
 
-    background-image: url('../img/scoreBoard.png');
+    background-image: url('../img/smallScoreBoard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    height: 5em;
     text-align: center;
 }
 
