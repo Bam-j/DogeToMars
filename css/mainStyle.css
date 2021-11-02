@@ -27,71 +27,10 @@ img{
     border-style: solid;
 
     background-image: url('../img/scoreBoard.png');
-    background-size: cover;
     background-position: center;
     height: 5em;
     text-align: center;
 }
-
-/*
-#slide_view{
-    border-color: violet;
-    border-style: solid;
-
-    overflow: hidden;
-    position: relative;
-    color: #fff00f;
-}
-
-#slide_ranking_view{
-    border-color: red;
-    border-style: solid;
-
-    background-color: yellowgreen;
-    transition: transform 600ms;
-    transform: translate(-250px, 0px);
-
-    -ms-transition: -ms-transform 600ms;
-    -webkit-transition: -webkit-transform 600ms;
-    -moz-transition: -moz-transform 600ms;
-    -o-transition: -o-transform 600ms;
-
-    -ms-transform: translate(-250px, 0px);
-    -webkit-transform: translate(-250px, 0px);
-    -moz-transform: translate(-250px, 0px);
-    -o-transform: translate(-250px, 0px);
-}
-
-#slide_ranking_view > div{
-    font-family: Raleway;
-    width: 100px;
-    line-height: 30px;
-    vertical-align: middle;
-    text-align: center;
-    color: #716f6f;
-    cursor: pointer;
-}
-
-#slide_ranking_view > #close_btn:hover{
-    background-color: #efa0a0;
-}
-
-#slide_view_btn{
-    border-color: blue;
-    border-style: solid;
-
-    font-family: Raleway;
-    position: absolute;
-    bottom: 10px;
-    left: 23px;
-    cursor: pointer;
-    color: #efa0a0;
-}
-
-#slide_view_btn:hover{
-
-}
-*/
 
 #score{
     border-color: red;
