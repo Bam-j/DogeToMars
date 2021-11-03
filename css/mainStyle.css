@@ -32,9 +32,17 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: table;
     text-align: center;
 }
 
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*
 #score{
     border-color: red;
     border-style: solid;
@@ -47,6 +55,7 @@ img{
     -webkit-user-select: none;
     user-select: none;
 }
+ */
 
 #coin_img_container{
     border-color: black;
