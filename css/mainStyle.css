@@ -8,7 +8,6 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
     background-image: url('../img/ground.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,33 +27,24 @@ img{
     border-color: black;
     border-style: solid;
 
+    background-image: url('../img/scoreBoard.png');
     text-align: center;
 }
 
-.wrapper {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#score_board_img {
-    width: 100%;
-}
-
-/*
 #score{
     border-color: red;
     border-style: solid;
 
     font-family: Raleway;
     font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
     -ms-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
- */
 
 #coin_img_container{
     border-color: black;
