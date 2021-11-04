@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
         scoreView.textContent = Number(scoreView.textContent) + 1;
 
         score += 1;
-        coinImageToggle(score);
         localStorage.setItem('score', JSON.stringify(score));
         changeBackground(score);
     }, false);

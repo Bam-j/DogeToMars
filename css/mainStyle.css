@@ -66,6 +66,6 @@ img{
     justify-content: center;
 }
 
-#coin_img:active {
+body:active #coin_img {
     content: url('../img/clickedDogeCoin.png');
 }
