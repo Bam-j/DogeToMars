@@ -28,11 +28,6 @@ img{
     border-color: black;
     border-style: solid;
 
-    background-image: url('../img/smallScoreBoard.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: table;
     text-align: center;
 }
 
@@ -40,6 +35,10 @@ img{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+#score_board_img {
+    width: 100%;
 }
 
 /*
