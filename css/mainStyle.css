@@ -26,8 +26,6 @@ img{
 #score_view_container{
     border-color: black;
     border-style: solid;
-
-    background-image: url('../img/scoreBoard.png');
     text-align: center;
 }
 
@@ -55,6 +53,7 @@ img{
     align-items: center;
 }
 
+
 #coin_img{
     border-color: red;
     border-style: solid;
@@ -65,4 +64,8 @@ img{
     width: 50%;
     height: 50%;
     justify-content: center;
+}
+
+#coin_img:active {
+    content: url('../img/clickedDogeCoin.png');
 }
