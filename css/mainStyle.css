@@ -24,18 +24,16 @@ img{
 }
 
 #score_view_container{
-    border-color: black;
-    border-style: solid;
     text-align: center;
 }
 
 #score{
-    border-color: red;
-    border-style: solid;
-
+    display: inline;
     font-family: Raleway;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
+    color: #f3cf00;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     display: inline-block;
     -ms-user-select: none;
     -moz-user-select: none;
@@ -44,10 +42,12 @@ img{
     user-select: none;
 }
 
-#coin_img_container{
-    border-color: black;
-    border-style: solid;
+#distance_unit {
+    color: #f3cf00;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
 
+#coin_img_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +55,11 @@ img{
 
 
 #coin_img{
-    border-color: red;
-    border-style: solid;
-
     display: flex;
     max-width: 100%;
     max-height: 100%;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 20%;
     justify-content: center;
 }
 
