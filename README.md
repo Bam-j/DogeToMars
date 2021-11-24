@@ -21,5 +21,14 @@ https://bam-j.github.io/DogeToMars/
 - ##### 특정 가상 화폐 투자를 부추기는 목적이 있는 것이 '절대' 아님을 알려드립니다!
 
 ---
+### 사용 기술
+html5, css3, javascript, php, mariaDB, git
+
+
+
+
+
+
+---
 permalink: /index.html
 ---
