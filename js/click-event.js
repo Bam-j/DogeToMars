@@ -1,8 +1,10 @@
+import {changeBackground} from './change-background.js';
+
 document.addEventListener('DOMContentLoaded', function () {
+    let bg = document.getElementById('body');
     let scoreView = document.getElementById('score');
     let score;
     let lastTouchEndTime = 0;
-
     //우클릭 방지 이벤트
     document.addEventListener('contextmenu', function (event) {
         return event.preventDefault();
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (JSON.parse(localStorage.getItem('score')) !== 0) {
         score = Number(JSON.parse(localStorage.getItem('score')));
         scoreView.textContent = JSON.parse(localStorage.getItem('score'));
+        changeBackground(bg, parseInt(score));
     }
     //새로운 접속이면 0부터 시작
     else {
@@ -25,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         score += 1;
         localStorage.setItem('score', JSON.stringify(score));
-        changeBackground(score);
+        changeBackground(bg, parseInt(score));
     }, false);
 
     //더블탭 확대(3초 이내 터치) 방지 이벤트
