@@ -20,5 +20,7 @@
   "devDependencies": {
     "jsdoc": "^3.6.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "mariadb": "^2.5.5"
+  }
 }
