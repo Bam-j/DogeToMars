@@ -14,7 +14,7 @@ const TO_THE_NEPTUNE = 4350000000;
 
 export const changeBackground = (bg, score) => {
     if (score >= TO_THE_SKY && score < TO_THE_SPACE) {
-        bg.style.backgroundImage = 'url(./../img/sky.png)';
+        bg.style.backgroundImage = 'url("./../img/sky.png")';
     }
     else if (score >= TO_THE_SPACE && score < TO_THE_MOON) {
         bg.style.backgroundImage = 'url(./../img/earth.png)';
