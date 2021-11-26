@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     let scoreView = document.getElementById('score');
     let score;
     let lastTouchEndTime = 0;
-    const coinAudio = new Audio('./../audio/coin-sound.mp3');
+    let coinAudio = new Audio();
+
+    coinAudio.src = './audio/coin-sound.mp3'
 
     //우클릭 방지 이벤트
     document.addEventListener('contextmenu', function (event) {
