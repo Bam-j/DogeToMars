@@ -1,5 +1,9 @@
+#IDE setting dir
 .idea
-
 .vscode/
 
+#node_modules
+./node_modules
+
+#etc
 _config.yml

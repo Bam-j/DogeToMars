@@ -24,7 +24,10 @@ https://bam-j.github.io/DogeToMars/
 ### 사용 기술
 html5, css3, javascript, php, mariaDB, git
 
-
+### Document
+각 js파일에 기능에 대한 설명을 짧막하게 주석으로 달아놓았지만 구체적인 설명은
+js 폴더 내부의 docs 폴더의 code-doc.md에 구체적으로 작성하였습니다.
+#### [doc링크](https://github.com/Bam-j/DogeToMars/tree/master/js/docs/code-doc.md)
 
 
 
