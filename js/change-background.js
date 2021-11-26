@@ -17,25 +17,25 @@ export const changeBackground = (bg, score) => {
         bg.style.backgroundImage = 'url(./img/sky.png)';
     }
     else if (score >= TO_THE_SPACE && score < TO_THE_MOON) {
-        bg.style.backgroundImage = 'url(./../img/earth.png)';
+        bg.style.backgroundImage = 'url(./img/earth.png)';
     }
     else if (score >= TO_THE_MOON && score < TO_THE_MARS) {
-        bg.style.backgroundImage = 'url(./../img/moonToMars.png)';
+        bg.style.backgroundImage = 'url(./img/moonToMars.png)';
     }
     else if (score >= TO_THE_MARS && score < TO_THE_JUPITER) {
-        bg.style.backgroundImage = 'url(./../img/marsToJupiter.png)';
+        bg.style.backgroundImage = 'url(./img/marsToJupiter.png)';
     }
     else if (score >= TO_THE_JUPITER && score < TO_THE_SATURN) {
-        bg.style.backgroundImage = 'url(./../img/jupiterToSaturn.png)';
+        bg.style.backgroundImage = 'url(./img/jupiterToSaturn.png)';
     }
     else if (score >= TO_THE_SATURN && score < TO_THE_URANUS) {
-        bg.style.backgroundImage = 'url(./../img/saturnToUranus.png)';
+        bg.style.backgroundImage = 'url(./img/saturnToUranus.png)';
     }
     else if (score >= TO_THE_URANUS && score < TO_THE_NEPTUNE) {
-        bg.style.backgroundImage = 'url(./../img/uranusToNeptune.png)';
+        bg.style.backgroundImage = 'url(./img/uranusToNeptune.png)';
     }
     else if (score >= TO_THE_NEPTUNE) {
-        bg.style.backgroundImage = 'url(./../img/neptune.png)';
+        bg.style.backgroundImage = 'url(./img/neptune.png)';
     }
 };
 
