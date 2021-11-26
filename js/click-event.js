@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let scoreView = document.getElementById('score');
     let score;
     let lastTouchEndTime = 0;
+    const coinAudio = new Audio('./audio/coin-sound.mp3');
+
     //우클릭 방지 이벤트
     document.addEventListener('contextmenu', function (event) {
         return event.preventDefault();
@@ -22,9 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
         scoreView.textContent = 0;
     }
 
-    //클릭 했을 경우, 클릭수 + 1 이벤트
+    //클릭 했을 경우, 클릭수 + 1 이벤트와 효과음 출력
     document.body.addEventListener('click', function () {
         scoreView.textContent = Number(scoreView.textContent) + 1;
+        coinAudio.currentTime = 0;
+        coinAudio.play();
 
         score += 1;
         localStorage.setItem('score', JSON.stringify(score));
