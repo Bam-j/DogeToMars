@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const highScore = Math.max(...scoreArr);
-            const highScoreView = document.getElementById('high-score');
+            const highScoreView = document.getElementById('high_score');
 
             highScoreView.textContent = highScore.toString().trim();
         })
