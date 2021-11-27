@@ -1,4 +1,4 @@
-const mariaDBConn = require('./db-connect.js');
+import {mariaDBConn} from './db-connect.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     mariaDBConn.getScoreList()

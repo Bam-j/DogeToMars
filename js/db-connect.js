@@ -8,7 +8,7 @@ export const mariaDBConn = () => {
     });
     const sql = 'select sco from score_board';
 
-    async function GetScoreList() {
+    async function getScoreList() {
         let conn;
         let rows;
 
@@ -25,9 +25,5 @@ export const mariaDBConn = () => {
             }
             return rows;
         }
-        return rows;
-    }
-    module.exports = {
-        getScoreList: GetScoreList
     }
 };
