@@ -61,3 +61,7 @@ else {
 ```
 - if문을 통해 이미 score 정보가 local storage에 남아있다면, scoreView에 이전에 플레이하던 정보를 이어서 표시해줍니다.
 새로운 유저일 경우는 0부터 시작하도록 처리했습니다.
+
+---
+## db-connect.js, high-score.js
+최고 점수에 관한 동작을 담당하는 js 파일입니다.
