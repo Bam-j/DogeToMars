@@ -65,3 +65,7 @@ else {
 ---
 ## db-connect.js, high-score.js
 최고 점수에 관한 동작을 담당하는 js 파일입니다.
+
+---
+## php/server-system.php
+점수 저장용 DB와 그 일련의 동작들
